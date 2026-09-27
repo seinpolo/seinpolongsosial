@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEINPOLONG — Suntik Sosmed</title>
+  <meta name="description" content="SEINPOLONG — layanan suntik sosial media dan pemesanan melalui WhatsApp.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-glow glow-1"></div><div class="bg-glow glow-2"></div>
+
+  <header class="topbar">
+    <a class="logo" href="#home" aria-label="SEINPOLONG Home">
+      <span class="logo-mark">S</span>
+      <span><b>SEIN</b>POLONG<small>SUNTIK SOSMED</small></span>
+    </a>
+    <nav class="nav" aria-label="Navigasi utama">
+      <a class="nav-link active" href="#home">HOME</a>
+      <a class="nav-link" href="#produk">PRODUK</a>
+      <a class="nav-link" href="#tentang">TENTANG</a>
+    </nav>
+    <a class="top-order" href="#order">ORDER <span>↗</span></a>
+  </header>
+
+  <main>
+    <section id="home" class="hero section-wrap">
+      <div class="hero-copy">
+        <div class="pill"><span class="live-dot"></span> SEINPOLONG SERVICES</div>
+        <h1>SUNTIK <span>SOSMED</span><br>JADI LEBIH <i>MUDAH.</i></h1>
+        <p>Pesan layanan sosial media dengan alur sederhana, harga jelas, dan langsung terhubung ke WhatsApp Admin.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#produk">Lihat Produk <span>↓</span></a>
+          <a class="btn secondary" href="#cara-order">Cara Order</a>
+        </div>
+        <div class="mini-stats">
+          <div><strong>07</strong><span>PRODUK</span></div>
+          <div><strong>24/7</strong><span>ORDER</span></div>
+          <div><strong>WA</strong><span>ADMIN</span></div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-top"><span>SEINPOLONG</span><span class="status">● ONLINE</span></div>
+        <div class="orb"><div class="orb-logo">S</div></div>
+        <p>Digital service<br><b>Social Media Boost</b></p>
+        <div class="hero-line"><span>ORDER CEPAT</span><span>WHATSAPP</span></div>
+      </div>
+    </section>
+
+    <section id="produk" class="section-wrap products-section">
+      <div class="section-title">
+        <div><span class="eyebrow">PRICE LIST</span><h2>Produk <span>SEINPOLONG</span></h2><p>Pilih layanan yang kamu butuhkan. Harga di bawah adalah harga website dan tidak mengikuti contoh desain.</p></div>
+        <div class="search-box"><span>⌕</span><input id="search" type="search" placeholder="Cari produk..." aria-label="Cari produk"></div>
+      </div>
+      <div id="cards" class="product-grid"></div>
+    </section>
+
+    <section id="cara-order" class="section-wrap how-section">
+      <div class="section-title compact"><div><span class="eyebrow">HOW TO ORDER</span><h2>Cara Order <span>Suntik Sosmed</span></h2></div></div>
+      <div class="steps">
+        <article class="step"><b>01</b><div><h3>Pilih Produk</h3><p>Pilih layanan dan paket yang tersedia di bagian Produk.</p></div></article>
+        <article class="step"><b>02</b><div><h3>Tentukan Paket</h3><p>Pilih jumlah sesuai daftar harga yang tersedia.</p></div></article>
+        <article class="step"><b>03</b><div><h3>Masukkan Link</h3><p>Masukkan link akun, postingan, video, atau channel sesuai layanan.</p></div></article>
+        <article class="step"><b>04</b><div><h3>Kirim Order</h3><p>Tekan tombol order. Detail dan total harga akan otomatis dibawa ke WhatsApp Admin.</p></div></article>
+      </div>
+    </section>
+
+    <section id="order" class="section-wrap order-section">
+      <div class="order-shell">
+        <div class="order-info">
+          <span class="eyebrow">ORDER NOW</span>
+          <h2>Siap order?<br><span>Langsung ke Admin.</span></h2>
+          <p>Isi data di samping. Total harga akan dihitung otomatis berdasarkan paket yang kamu pilih.</p>
+          <div class="wa-badge">💬 WhatsApp Admin <strong>6282191934738</strong></div>
+        </div>
+        <form id="orderForm" class="order-form">
+          <label>Nama<input id="name" required placeholder="Nama kamu"></label>
+          <label>Layanan<select id="service" required></select></label>
+          <label>Paket / Jumlah<select id="package" required></select></label>
+          <label>Link akun / postingan<input id="link" required type="url" placeholder="https://..."></label>
+          <div class="total-box"><span>Total Order</span><strong id="totalPrice">-</strong></div>
+          <button class="btn primary full" type="submit">💬 Order ke WhatsApp Admin <span>↗</span></button>
+        </form>
+      </div>
+    </section>
+
+    <section id="tentang" class="section-wrap about-section">
+      <div class="section-title compact"><div><span class="eyebrow">ABOUT</span><h2>Tentang <span>SEINPOLONG</span></h2></div></div>
+      <div class="about-grid">
+        <div class="about-main"><div class="about-logo">SEIN<span>POLONG</span></div><p>SEINPOLONG merupakan platform informasi dan pemesanan layanan digital. Website ini menyediakan informasi produk, harga, cara order, dan kontak untuk membantu pelanggan melakukan pemesanan.</p><div class="contact-row"><a href="https://wa.me/6282191934738" target="_blank" rel="noopener">Admin <b>6282191934738</b></a><a href="https://wa.me/6289515231087" target="_blank" rel="noopener">CS 1 <b>6289515231087</b></a><a href="https://wa.me/6285774226231" target="_blank" rel="noopener">CS 2 <b>6285774226231</b></a></div></div>
+        <div class="about-panels">
+          <details class="info-panel" open><summary>📋 Ketentuan Layanan</summary><div class="info-content"><ul><li>Pastikan username, link, jumlah, dan layanan sudah benar.</li><li>Pesanan yang sudah diproses tidak dapat dibatalkan secara sepihak.</li><li>Waktu proses dapat berbeda sesuai layanan, jumlah pesanan, dan kondisi platform.</li><li>Pelanggan wajib menggunakan layanan secara bertanggung jawab dan tidak untuk kegiatan yang melanggar hukum.</li></ul></div></details>
+          <details class="info-panel"><summary>⚠️ Informasi Penting</summary><div class="info-content"><ul><li>Pastikan akun/link sesuai dan dapat diakses.</li><li>Hindari perubahan username selama pesanan diproses jika dapat mengganggu proses.</li><li>Hindari order berulang pada target yang sama sebelum order sebelumnya selesai.</li><li>Jangan pernah memberikan password, PIN, atau kode OTP kepada siapa pun.</li></ul></div></details>
+          <details class="info-panel"><summary>🌐 Tentang Website & Undang-Undang</summary><div class="info-content"><p>Penggunaan website dan layanan harus dilakukan sesuai peraturan perundang-undangan yang berlaku di Indonesia, termasuk ketentuan mengenai informasi dan transaksi elektronik serta perlindungan data pribadi.</p><p>Pengguna bertanggung jawab atas penggunaan layanan dan dilarang menggunakan website untuk penipuan, penyalahgunaan akun, pelanggaran hak orang lain, atau kegiatan lain yang bertentangan dengan hukum.</p></div></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="footer-brand"><span class="logo-mark small">S</span><b>SEINPOLONG</b></div><span>© 2026 — Suntik Sosmed</span><a href="#home">Kembali ke atas ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
